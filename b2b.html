@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>디에스피 코리아 | B2B 납품 전문</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Pretendard:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body { font-family:'Pretendard', sans-serif; color:#222; line-height:1.6; }
+
+    header {
+      padding:20px 10%;
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      border-bottom:1px solid #eee;
+      background:#fff;
+    }
+
+    header h2 a {
+      text-decoration:none;
+      color:#000;
+    }
+
+    nav a {
+      margin-left:20px;
+      text-decoration:none;
+      color:#333;
+      font-weight:500;
+      transition:0.2s;
+    }
+
+    nav a:hover {
+      color:#007a78;
+    }
+
+    nav a.active {
+      color:#007a78;
+      font-weight:700;
+    }
+
+    .hero {
+      background:url('https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d') center/cover no-repeat;
+      height:450px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      color:#fff;
+      text-align:center;
+    }
+
+    .hero h1 {
+      font-size:42px;
+      background:rgba(0,0,0,0.55);
+      padding:25px 45px;
+      border-radius:12px;
+    }
+
+    section { padding:80px 10%; }
+
+    .section-title {
+      text-align:center;
+      font-size:32px;
+      margin-bottom:50px;
+      font-weight:700;
+    }
+
+    .grid-3 {
+      display:grid;
+      grid-template-columns:repeat(auto-fit, minmax(260px,1fr));
+      gap:30px;
+    }
+
+    .card {
+      border:1px solid #eee;
+      border-radius:15px;
+      padding:30px;
+      text-align:center;
+      background:#fff;
+      transition:0.3s;
+    }
+
+    .card:hover {
+      transform:translateY(-6px);
+      box-shadow:0 10px 25px rgba(0,0,0,0.07);
+    }
+
+    .card img {
+      width:100%;
+      height:180px;
+      object-fit:cover;
+      border-radius:12px;
+      margin-bottom:15px;
+    }
+
+    .gray-section {
+      background:#f7f9fb;
+    }
+
+    .contact-box {
+      background:#111;
+      color:#fff;
+      text-align:center;
+      padding:70px 20px;
+      border-radius:20px;
+    }
+
+    .btn {
+      display:inline-block;
+      padding:14px 35px;
+      background:#007a78;
+      color:#fff;
+      text-decoration:none;
+      border-radius:50px;
+      margin-top:20px;
+      transition:0.2s;
+    }
+
+    .btn:hover {
+      background:#005f5d;
+    }
+
+    footer {
+      text-align:center;
+      padding:30px;
+      background:#111;
+      color:#aaa;
+      font-size:14px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h2><a href="index.html">DSP KOREA</a></h2>
+  <nav>
+    <a href="index.html">홈</a>
+    <a href="interior.html">인테리어</a>
+    <a href="b2b.html" class="active">B2B</a>
+    <a href="contact.html">문의</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>디에스피 코리아<br>B2B 납품 전문 기업</h1>
+</section>
+
+<section>
+  <h2 class="section-title">DSP KOREA B2B 서비스</h2>
+  <div class="grid-3">
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1553413077-190dd305871c" alt="">
+      <h3>대량 납품 시스템</h3>
+      <p>매장 오픈 및 프랜차이즈 확장에 맞춘 대량 공급 지원</p>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e" alt="">
+      <h3>기업 맞춤 공급</h3>
+      <p>프로젝트 단위 맞춤 단가 및 제품 구성 제안</p>
+    </div>
+
+  </div>
+</section>
+
+<section class="gray-section">
+  <h2 class="section-title">취급 품목 범위</h2>
+  <div class="grid-3">
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1519710164239-da123dc03ef4" alt="">
+      <h3>조명</h3>
+      <p>펜던트, 테이블램프, LED 조명</p>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1555529771-835f59fc5efe" alt="">
+      <h3>디스플레이 소품</h3>
+      <p>진열 선반, 쇼룸 디스플레이, 매장 오브제</p>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf" alt="">
+      <h3>수납·정리 용품</h3>
+      <p>수납 바구니, 정리함, 매장 보관 솔루션</p>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c" alt="">
+      <h3>거울</h3>
+      <p>전신 거울, LED 거울, 벽면 거울</p>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6" alt="">
+      <h3>화분·조화</h3>
+      <p>플랜트, 인조식물, 스탠드</p>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee" alt="">
+      <h3>벽면 장식</h3>
+      <p>아트 프린트, 액자, 월데코</p>
+    </div>
+
+  </div>
+</section>
+
+<section>
+  <div class="contact-box">
+    <h2>B2B 납품 문의</h2>
+    <p>제품 리스트 및 단가표는 문의 시 제공됩니다.</p>
+    <a href="contact.html" class="btn">문의하기</a>
+  </div>
+</section>
+
+<footer>
+  © 2026 DSP KOREA. All rights reserved.
+</footer>
+
+</body>
+</html>

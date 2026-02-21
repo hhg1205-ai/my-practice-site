@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>뷰티 살롱 인테리어 | DSP KOREA</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Pretendard:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:'Pretendard',sans-serif;color:#222;}
+
+header{
+padding:20px 10%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+border-bottom:1px solid #eee;
+}
+
+header h2 a{text-decoration:none;color:#000;}
+
+nav a{
+margin-left:20px;
+text-decoration:none;
+color:#333;
+font-weight:500;
+}
+
+section{padding:80px 10%;}
+
+.hero{
+background:url('https://images.unsplash.com/photo-1555529771-835f59fc5efe') center/cover no-repeat;
+height:400px;
+display:flex;
+align-items:center;
+justify-content:center;
+color:#fff;
+}
+
+.hero h1{
+background:rgba(0,0,0,0.5);
+padding:20px 40px;
+border-radius:10px;
+}
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:25px;
+}
+
+.gallery img{
+width:100%;
+height:280px;
+object-fit:cover;
+border-radius:12px;
+transition:0.3s;
+}
+
+.gallery img:hover{
+transform:scale(1.03);
+}
+
+footer{
+text-align:center;
+padding:30px;
+background:#111;
+color:#aaa;
+font-size:14px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h2><a href="index.html">DSP KOREA</a></h2>
+<nav>
+<a href="index.html">홈</a>
+<a href="interior.html">인테리어</a>
+<a href="b2b.html">B2B</a>
+<a href="contact.html">문의</a>
+</nav>
+</header>
+
+<section class="hero">
+<h1>뷰티 살롱 시공 사례</h1>
+</section>
+
+<section>
+<h2 style="margin-bottom:40px;">실제 시공 사진</h2>
+
+<div class="gallery">
+
+<img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9">
+<img src="https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1">
+<img src="https://images.unsplash.com/photo-1519415510236-718bdfcd89c8">
+<img src="https://images.unsplash.com/photo-1600948836101-f9ffda59d250">
+<img src="https://images.unsplash.com/photo-1598520106830-8c45c2035460">
+
+</div>
+</section>
+
+<footer>
+© 2026 DSP KOREA. All rights reserved.
+</footer>
+
+</body>
+</html>
